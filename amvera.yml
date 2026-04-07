@@ -3,7 +3,7 @@ meta:
   toolchain: pip
   version: 3.11
 build:
-  requirementsPath: requirements.txt
+  useCache: true
 run:
-  scriptName: bot.py
+  command: pip install python-telegram-bot && python3 bot.py
   persistenceMount: /data
