@@ -1,0 +1,9 @@
+meta:
+  environment: python
+  toolchain: pip
+  version: 3.11
+build:
+  requirementsPath: requirements.txt
+run:
+  scriptName: bot.py
+  persistenceMount: /data
