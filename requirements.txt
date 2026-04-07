@@ -1,3 +1,1 @@
-cat > /Users/user/my_bot/requirements.txt << 'EOF'
 python-telegram-bot==20.7
-EOF
